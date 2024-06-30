@@ -1,0 +1,578 @@
+/* Navigator Styles */
+
+.nav-container {
+	background-color: #333;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo-container {
+	margin-right: 20px;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+}
+
+.nav-links {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.nav-links li {
+	margin-right: 20px;
+}
+
+.nav-links a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav-links a:hover {
+	color: #ccc;
+}
+
+/* Hero Styles */
+
+.hero {
+	background-color: #f7f7f7;
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-container {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.hero h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	margin-bottom: 40px;
+}
+
+.hero button {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.hero button:hover {
+	background-color: #444;
+}
+
+.hero-image {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 768px) {
+	.nav-container {
+		flex-direction: column;
+	}
+	.nav-links {
+		flex-direction: column;
+	}
+	.nav-links li {
+		margin-bottom: 10px;
+	}
+	.hero {
+		padding: 50px;
+	}
+	.hero-container {
+		width: 80%;
+	}
+	.hero-image {
+		height: 300px;
+	}
+}
+/* Navigation menu styles */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #666;
+  }
+  
+  /* Outdoor cooking section styles */
+  #outdoor-cooking {
+    padding: 20px;
+  }
+  
+  .outdoor-cooking-features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .outdoor-cooking-features li {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    width: calc(25% - 40px);
+    text-align: center;
+  }
+  
+  .outdoor-cooking-features li i {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .outdoor-cooking-features li b {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .outdoor-cooking-features li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .outdoor-cooking-features li a:hover {
+    color: #666;
+  }
+  
+  /* Feature section styles */
+  section[id] {
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  /* Navigation menu styles */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #666;
+  }
+  
+  /* Outdoor kitchen section styles */
+  #outdoor-kitchen {
+    padding: 20px;
+  }
+  
+  .outdoor-kitchen-features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .outdoor-kitchen-features li {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    width: calc(25% - 40px);
+    text-align: center;
+  }
+  
+  .outdoor-kitchen-features li i {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .outdoor-kitchen-features li b {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .outdoor-kitchen-features li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .outdoor-kitchen-features li a:hover {
+    color: #666;
+  }
+  
+  /* Feature section styles */
+  section[id] {
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  /* Navigation menu styles */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #666;
+  }
+  
+  /* Outdoor heating section styles */
+  #outdoor-heating {
+    padding: 20px;
+  }
+  
+  .outdoor-heating-features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .outdoor-heating-features li {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    width: calc(25% - 40px);
+    text-align: center;
+  }
+  
+  .outdoor-heating-features li i {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .outdoor-heating-features li b {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .outdoor-heating-features li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .outdoor-heating-features li a:hover {
+    color: #666;
+  }
+  
+  /* Feature section styles */
+  section[id] {
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  /* Navigation menu styles */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #666;
+  }
+  
+  /* Outdoor living section styles */
+  #outdoor-living {
+    padding: 20px;
+  }
+  
+  .outdoor-living-features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .outdoor-living-features li {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    width: calc(25% - 40px);
+    text-align: center;
+  }
+  
+  .outdoor-living-features li i {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .outdoor-living-features li b {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .outdoor-living-features li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .outdoor-living-features li a:hover {
+    color: #666;
+  }
+  
+  /* Feature section styles */
+  section[id] {
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  .ul-class {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ul-class ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .ul-class li {
+    margin-bottom: 10px;
+  }
+  
+  .ul-class a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .ul-class a:hover {
+    color: #23527c;
+  }
+  
+  .ul-class h2 {
+    margin-top: 0;
+  }
+  
+  .ul-class h3 {
+    margin-top: 20px;
+  }
+  
+  #request-form {
+    margin-top: 40px;
+  }
+  
+  #request-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #request-form input[type="text"],
+  #request-form input[type="email"],
+  #request-form input[type="tel"],
+  #request-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  #request-form input[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #request-form input[type="submit"]:hover {
+    background-color: #23527c;
+  }
+  #our-installations {
+    background-color: #f9f9f9;
+    padding: 40px;
+  }
+  
+  .installation-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .installation-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .installation-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .installation-item h3 {
+    margin-top: 0;
+  }
+  
+  .installation-item p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .installation-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .installation-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  #about-us {
+    background-color: #f9f9f9;
+    padding: 40px;
+  }
+  
+  .about-us-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .about-us-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us-item h3 {
+    margin-top: 0;
+  }
+  
+  .about-us-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .about-us-item li {
+    margin-bottom: 20px;
+  }
+  
+  .about-us-item h4 {
+    margin-top: 0;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-us-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-us-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  #send-queries {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
